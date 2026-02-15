@@ -1,0 +1,145 @@
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 80px 0;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-section .lead {
+  font-size: 20px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.hero-section .btn {
+  background-color: white;
+  color: #667eea;
+  border: none;
+  padding: 15px 40px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.hero-section .btn:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.hero-image {
+  position: relative;
+  height: 400px;
+}
+
+/* Features Section */
+.features-section {
+  padding: 80px 0;
+  background-color: white;
+}
+
+.features-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.feature-card {
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  border-left: 5px solid #667eea;
+}
+
+.feature-card h5 {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.cta-section .btn-primary {
+  background-color: white;
+  color: #667eea;
+  border: 2px solid white;
+  padding: 15px 40px;
+  font-weight: bold;
+}
+
+.cta-section .btn-primary:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+.cta-section .btn-outline-primary {
+  color: white;
+  border-color: white;
+}
+
+.cta-section .btn-outline-primary:hover {
+  background-color: white;
+  color: #667eea;
+  border-color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 32px;
+  }
+
+  .hero-section .lead {
+    font-size: 16px;
+  }
+
+  .features-section h2,
+  .cta-section h2 {
+    font-size: 24px;
+  }
+
+  .hero-image {
+    margin-top: 40px;
+  }
+}

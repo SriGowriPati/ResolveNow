@@ -1,0 +1,19 @@
+/* Profile Page Styles */
+.profile-container {
+  background-color: #f8f9fa;
+  min-height: calc(100vh - 100px);
+}
+
+.profile-info p {
+  margin-bottom: 15px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.profile-info strong {
+  color: #333;
+}
+
+.profile-info .badge {
+  font-size: 12px;
+}

@@ -1,0 +1,50 @@
+/* Dashboard Styles */
+.dashboard-container {
+  background-color: #f8f9fa;
+}
+
+.stat-card {
+  border: none;
+  border-top: 4px solid #667eea;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card h5 {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.stat-card h3 {
+  font-weight: bold;
+}
+
+/* Admin Dashboard */
+.admin-dashboard {
+  background-color: #f8f9fa;
+}
+
+/* Navigation */
+.navbar-custom {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 24px;
+  margin-right: 30px;
+}
+
+.navbar-custom .nav-link {
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #667eea !important;
+}
