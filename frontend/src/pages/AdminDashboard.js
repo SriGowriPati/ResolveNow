@@ -210,6 +210,7 @@ const AdminDashboard = () => {
           <Button variant="secondary" onClick={() => setShowAssign(false)}>
             Close
           </Button>
+          <div></div>
           <Button 
             variant="primary" 
             onClick={handleAssignComplaint}
@@ -220,6 +221,7 @@ const AdminDashboard = () => {
         </Modal.Footer>
       </Modal>
     </Container>
+  
   );
 };
 
